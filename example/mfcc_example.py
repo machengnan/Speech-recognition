@@ -1,9 +1,13 @@
+# python3.7
 # -*- coding: utf-8 -*-
 """
-Created on Fri Apr 24 09:48:56 2020
-
 @author: machengnan
+@contact:2624079968@qq.com
+@version: 1.0.0
+@file: mfcc_example.py
+@time: 2020/4/26 11:31
 """
+
 
 import matplotlib.pyplot as plt
 import librosa.display

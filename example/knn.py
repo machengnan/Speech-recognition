@@ -1,9 +1,13 @@
+# python3.7
 # -*- coding: utf-8 -*-
 """
-Created on Fri Apr 24 09:48:56 2020
-
 @author: machengnan
+@contact:2624079968@qq.com
+@version: 1.0.0
+@file: knn.py
+@time: 2020/4/26 11:31
 """
+
 import time
 import os
 import IPython.display as ipd
@@ -14,7 +18,7 @@ import numpy as np
 from dtw import dtw
 from numpy.linalg import norm
 from sklearn.neighbors import KNeighborsClassifier
-# D:\ProgramData\Anaconda3\lib\site-packages\librosa\util\decorators.py
+
 
 dirname = "train"
 files = [f for f in os.listdir(dirname) if not f.startswith('.')]
