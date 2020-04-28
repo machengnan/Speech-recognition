@@ -14,14 +14,21 @@ import librosa
 #import IPython.display as ipd
 
 y1, sr1 = librosa.load('./sounds/10.wav')
+print(len(y1), sr1)
 y2, sr2 = librosa.load('./sounds/78.wav')
+print(len(y2), sr2)
+
+
 
 # plt.subplot(1, 2, 1)
-mfcc1 = librosa.feature.mfcc(y1, sr1)
+mfcc1 = librosa.feature.mfcc(y1, sr1, n_mfcc=50)
 # librosa.display.specshow(mfcc1)
+# plt.show()
 # plt.subplot(1, 2, 2)
-mfcc2 = librosa.feature.mfcc(y2, sr2)
+# n_mfcc=50是帧数,shape=(x,y) x = n_mfcc, y为每一帧有多长
+mfcc2 = librosa.feature.mfcc(y2, sr2, n_mfcc=50)
 # librosa.display.specshow(mfcc2)
+# plt.show()
 print(mfcc1.shape)
 print(mfcc2.shape)
 
