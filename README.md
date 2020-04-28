@@ -16,6 +16,8 @@
 
    - [FFT讲解](https://zhuanlan.zhihu.com/p/19759362?from=timeline&isappinstalled=0)
    
+   - [FFTpython实现](https://blog.csdn.net/qq_27825451/article/details/88553441)
+   
    - [DTW讲解](https://github.com/pierre-rouanet/dtw)
 
 **三：模型搭建及调试**
