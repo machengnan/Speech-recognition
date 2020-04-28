@@ -19,7 +19,6 @@ y2, sr2 = librosa.load('./sounds/78.wav')
 print(len(y2), sr2)
 
 
-
 # plt.subplot(1, 2, 1)
 mfcc1 = librosa.feature.mfcc(y1, sr1, n_mfcc=50)
 # librosa.display.specshow(mfcc1)
